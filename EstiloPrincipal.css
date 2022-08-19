@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'open Sans', sams-serif;   
+}   
+.contenedor{
+    border: solid 1px blue;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    box-sizing: border-box;
+    overflow: hidden;   
+}
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 220px
+}
+.cabecera img {
+    width: 100px;
+}
+.cabecera_hl {
+   position: absolute;
+   top: 40px;
+   left: 150px;
+}
+.cabecera_frase {
+    position: absolute;
+   top: 70px;
+   left: 235px;
+}
+.nav {
+    margin: 10px 10px 0 0;
+   position: absolute;
+   background: none;
+   height: auto;
+   width: unset;
+   border: none;
+   top:5px;
+   left: 700px;
+}
